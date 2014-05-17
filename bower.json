@@ -1,0 +1,16 @@
+{
+  "name": "dsong-5-aniversario",
+  "version": "1.0.0",
+  "authors": [
+    "Jesús Manuel García Muñoz <skuark@gmail.com>"
+  ],
+  "moduleType": [
+    "node"
+  ],
+  "homepage": "http://www.dsong.es/",
+  "dependencies": {
+    "bootstrap": ">= 3.0.0",
+    "respond": ">= 0.0.0",
+    "html5shiv": ">= 0.0.0"
+  }
+}

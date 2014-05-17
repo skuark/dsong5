@@ -1,0 +1,246 @@
+html, body
+  height: 100%
+  width: 100%
+  font-family: "proxima-nova", sans-serif !important
+
+p.lead
+  font-size: 2em
+  font-weight: 300
+  text-align: center
+  font-family: "ff-meta-serif-web-pro", serif
+  margin-bottom: 2em
+
+.btn-dsong5
+  font-family: "proxima-nova", sans-serif !important
+  background-color: #333
+  color: #fff
+  border-radius: 0
+  outline: none !important
+
+  &:hover, &:focus
+    color: #fff
+  &:hover
+    background-color: #555
+
+ul.long_list
+  margin: 0
+  padding: 0
+  text-align: center
+  li
+    display: none
+    line-height: 1.7em
+    padding: .2em .4em
+    &.visible
+      display: inline-block
+    a
+      color: #222
+      padding: .2em .4em
+      &:hover
+        background-color: #333
+        color: #fff
+        text-decoration: none
+    &:after
+      color: #999
+      content: " / "
+    &:last-child
+      &:after
+        content: ""
+
+.view_all_wrapper
+  text-align: center
+  margin-top: 3em
+
+ul.people
+  list-style-type: none
+  margin: 0
+  padding: 0
+  li
+    margin: 0
+    padding: 0
+    display: inline-block
+    text-align: center
+    height: 150px
+    a, .noprofile
+      img
+        border-radius: 100px
+        display: block
+        margin: 0 auto
+        margin-bottom: .5em
+        border: 1px solid #aaa
+        padding: 2px
+        width: 90px
+    a
+      &:hover
+        img
+          padding: 0px
+          border: none
+    .name
+      display: block
+      font-weight: bold
+  &.colaborators
+    font-size: .9em
+    li
+      height: 120px
+      a, .noprofile
+        img
+          width: 50px
+
+.post
+  background-color: #fff
+  background-color: rgba(#fff, 0.9)
+  border-radius: 5px
+  display: none
+  min-height: 500px
+  padding: 1em
+  margin-bottom: 3em
+  h2
+    font-family: "ff-meta-serif-web-pro", serif
+    font-weight: 200
+    font-size: 1.8em
+  .post_metadata
+    margin-bottom: 2em
+  .glyphicon
+    margin-right: .5em
+  .post_photo
+    img
+      width: 100%
+      max-width: 229px
+      height: auto
+  .post_author
+    margin-right: 1em
+    margin-bottom: .5em
+    display: inline-block
+    .avatar
+      margin-right: .5em
+      img
+        border-radius: 100px
+        width: 20px
+        height: auto
+  .post_date
+    margin-right: 1em
+    margin-bottom: .5em
+    display: inline-block
+  .post_link
+    margin-right: 1em
+    margin-bottom: .5em
+    display: inline-block
+  .post_content
+    font-family: "ff-meta-serif-web-pro", serif
+    font-size: 1.2em
+
+.share
+  a
+    color: #333
+  i
+    margin-right: .4em
+  .twitter, .facebook
+    margin-left: 1em
+  .fa-facebook-square
+    color: #3B5998
+  .fa-twitter
+    color: #55ACEE
+
+section
+  padding: 3em 0
+
+#intro
+  font-family: "ff-meta-serif-web-pro", serif !important
+  background-color: #efefef
+  height: 100%
+  width: 100%
+  display: table
+  padding: 1em
+  color: #222
+  .inner
+    display: table-cell
+    vertical-align: middle
+    .logo
+      margin-bottom: 2em
+      img
+        max-width: 175px
+    .date
+      font-size: 1.5em
+      font-weight: 200
+    .title
+      font-size: 3em
+      font-weight: 800
+      line-height: 1em
+      margin-bottom: 1em
+    .catch_phrase
+      font-size: 2em
+      font-weight: 200
+    .start
+      display: inline-block
+
+#numbers
+  .line
+    font-family: "ff-meta-serif-web-pro", serif
+    font-size: 1.4em
+    .number
+      display: inline-block
+      background-color: #fffba6
+
+#artists
+  background-color: #fff
+
+#genres
+  background-color: #fff
+
+#top10
+  ul
+    list-style-type: none
+    padding: 0
+    text-align: center
+    font-size: 1.5em
+
+#team
+  background-color: #fff
+
+#map_canvas
+  height: 600px
+
+#random
+  background-image: url('../images/vynil.jpg')
+  background-size: cover
+  position: relative
+  .photo_credits
+    position: absolute
+    bottom: 10px
+    right: 10px
+    font-size: .9em
+    a
+      color: #ffffff
+
+#closing
+  padding: 10em
+  .share
+    font-size: 2em
+    text-align: center
+
+#footer_bar
+  background-color: #efefef
+  bottom: 0
+  color: #888
+  padding: .5em 1em
+  position: fixed
+  width: 100%
+  .credits
+    float: left
+  .share
+    float: right
+  a
+    color: #222
+
+/* sm */
+@media (min-width: 768px)
+
+
+/* md */
+@media (min-width: 992px)
+  .post
+    padding: 3em 
+
+
+/* lg */
+@media (min-width: 1200px)
+
