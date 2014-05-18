@@ -8,8 +8,8 @@ function scroll_to(id){
 
 function initialize_map() {
   var mapOptions = {
-    center: new google.maps.LatLng(45.828799, -24.257812),
-    zoom: 3,
+    center: new google.maps.LatLng(50.828799, -24.257812),
+    zoom: 2,
     mapTypeId: google.maps.MapTypeId.ROADMAP,
     disableDefaultUI: true,
     scrollwheel: false,

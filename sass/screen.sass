@@ -195,13 +195,15 @@ section
     list-style-type: none
     padding: 0
     text-align: center
-    font-size: 1.5em
+    font-size: 1em
+    li
+      margin-bottom: .5em
 
 #team
   background-color: #fff
 
 #map_canvas
-  height: 600px
+  height: 300px
 
 #random
   background-image: url('../images/vynil.jpg')
@@ -218,26 +220,35 @@ section
 #closing
   padding: 10em 0
   .share
-    font-size: 2em
+    font-size: 1.5em
     text-align: center
 
 #footer_bar
   background-color: #efefef
-  bottom: 0
   color: #888
   padding: .5em 1em
-  position: fixed
-  width: 100%
   .credits
     float: left
   .share
-    float: right
+    display: none
   a
     color: #222
 
 /* sm */
 @media (min-width: 768px)
-
+  #top10
+    ul
+      font-size: 1.5em
+  #footer_bar
+    position: fixed
+    bottom: 0
+    width: 100%
+    .share
+      display: inline-block
+      float: right
+  #closing
+    .share
+      font-size: 2em
 
 /* md */
 @media (min-width: 992px)
