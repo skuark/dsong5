@@ -32,7 +32,7 @@ function initialize_map() {
 
 function random_post() {
   $.ajax({
-    url: "http://www.dsong.es/api/dsong/dsong_random/",
+    url: "http://dsong.skuark.com/api/dsong/dsong_random/",
     dataType: "jsonp",
     success: function(data){
       render_post(data);

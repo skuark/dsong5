@@ -3,6 +3,6 @@
 m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-ga('create', 'UA-8868612-2', 'dsong.es');
+ga('create', 'UA-8868612-2', 'dsong.skuark.com');
 ga('require', 'linkid', 'linkid.js');
 ga('send', 'pageview');
