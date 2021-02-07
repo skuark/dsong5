@@ -7,7 +7,7 @@
   "moduleType": [
     "node"
   ],
-  "homepage": "http://dsong.skuark.com/",
+  "homepage": "http://dsong.es/",
   "dependencies": {
     "bootstrap": ">= 3.0.0",
     "respond": ">= 0.0.0",
