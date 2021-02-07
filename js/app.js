@@ -6,30 +6,6 @@ function scroll_to(id){
   }, 'slow');
 }
 
-function initialize_map() {
-  var mapOptions = {
-    center: new google.maps.LatLng(50.828799, -24.257812),
-    zoom: 2,
-    mapTypeId: google.maps.MapTypeId.ROADMAP,
-    disableDefaultUI: true,
-    scrollwheel: false,
-    navigationControl: false,
-    mapTypeControl: false,
-    scaleControl: false,
-  };
-
-  var map = new google.maps.Map(document.getElementById("map_canvas"), mapOptions);
-
-  var marker_jaen = new google.maps.Marker({ position: new google.maps.LatLng(37.779594,-3.784906), map: map, title: 'Jaén' });
-  var marker_granada = new google.maps.Marker({ position: new google.maps.LatLng(37.177336,-3.598557), map: map, title: 'Granada' });
-  var marker_madrid = new google.maps.Marker({ position: new google.maps.LatLng(40.416775,-3.70379), map: map, title: 'Madrid' });
-  var marker_malaga = new google.maps.Marker({ position: new google.maps.LatLng(36.721261,-4.421266), map: map, title: 'Málaga' });
-  var marker_sevilla = new google.maps.Marker({ position: new google.maps.LatLng(37.389092,-5.984459), map: map, title: 'Sevilla' });
-  var marker_estocolmo = new google.maps.Marker({ position: new google.maps.LatLng(59.329323,18.068581), map: map, title: 'Estocolmo' });
-  var marker_austin = new google.maps.Marker({ position: new google.maps.LatLng(30.267153,-97.743061), map: map, title: 'Austin, Texas' });
-  var marker_ginebra = new google.maps.Marker({ position: new google.maps.LatLng(46.198392,6.142296), map: map, title: 'Ginebra' });
-}
-
 function random_post() {
   $.ajax({
     url: "http://dsong.es/api/dsong/dsong_random/",
@@ -115,8 +91,6 @@ $(document).ready(function(){
     $('#genres li').addClass('visible');
     $('#genres .view_all').parent().remove();
   });
-
-  initialize_map();
 
   $('.give_me_a_random_post').click(function(){
     tmp_post_layout = $('.post').html();
