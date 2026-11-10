@@ -100,8 +100,6 @@ ul.people li {
   text-align: center;
   height: 150px;
 }
-ul.people li a, ul.people li .noprofile { color: #428bca; }
-ul.people li .noprofile { color: #333; }
 ul.people li img {
   display: block;
   width: 90px;
